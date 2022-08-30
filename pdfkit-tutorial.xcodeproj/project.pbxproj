@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA89BC028BE655B00B1EA9C /* pdfkit_tutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA89BBF28BE655B00B1EA9C /* pdfkit_tutorialApp.swift */; };
+		FAA89BC228BE655B00B1EA9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA89BC128BE655B00B1EA9C /* ContentView.swift */; };
+		FAA89BC428BE655C00B1EA9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA89BC328BE655C00B1EA9C /* Assets.xcassets */; };
+		FAA89BC728BE655C00B1EA9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA89BC628BE655C00B1EA9C /* Preview Assets.xcassets */; };
+		FAA89BD128BE655C00B1EA9C /* pdfkit_tutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA89BD028BE655C00B1EA9C /* pdfkit_tutorialTests.swift */; };
+		FAA89BDB28BE655C00B1EA9C /* pdfkit_tutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA89BDA28BE655C00B1EA9C /* pdfkit_tutorialUITests.swift */; };
+		FAA89BDD28BE655C00B1EA9C /* pdfkit_tutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA89BDC28BE655C00B1EA9C /* pdfkit_tutorialUITestsLaunchTests.swift */; };
+		FAA89BEA28BEC8AC00B1EA9C /* sat-practice-test-1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FAA89BE928BEC8AC00B1EA9C /* sat-practice-test-1.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA89BCD28BE655C00B1EA9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA89BB428BE655B00B1EA9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA89BBB28BE655B00B1EA9C;
+			remoteInfo = "pdfkit-tutorial";
+		};
+		FAA89BD728BE655C00B1EA9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA89BB428BE655B00B1EA9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA89BBB28BE655B00B1EA9C;
+			remoteInfo = "pdfkit-tutorial";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA89BBC28BE655B00B1EA9C /* pdfkit-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pdfkit-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA89BBF28BE655B00B1EA9C /* pdfkit_tutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfkit_tutorialApp.swift; sourceTree = "<group>"; };
+		FAA89BC128BE655B00B1EA9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAA89BC328BE655C00B1EA9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA89BC628BE655C00B1EA9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAA89BCC28BE655C00B1EA9C /* pdfkit-tutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pdfkit-tutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA89BD028BE655C00B1EA9C /* pdfkit_tutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfkit_tutorialTests.swift; sourceTree = "<group>"; };
+		FAA89BD628BE655C00B1EA9C /* pdfkit-tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pdfkit-tutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA89BDA28BE655C00B1EA9C /* pdfkit_tutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfkit_tutorialUITests.swift; sourceTree = "<group>"; };
+		FAA89BDC28BE655C00B1EA9C /* pdfkit_tutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfkit_tutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAA89BE928BEC8AC00B1EA9C /* sat-practice-test-1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "sat-practice-test-1.pdf"; path = "../../../../Downloads/sat-practice-test-1.pdf"; sourceTree = "<group>"; };
+		FAA89BEB28BEC8AE00B1EA9C /* sat-practice-test-1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "sat-practice-test-1.pdf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA89BB928BE655B00B1EA9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA89BC928BE655C00B1EA9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA89BD328BE655C00B1EA9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA89BB328BE655B00B1EA9C = {
+			isa = PBXGroup;
+			children = (
+				FAA89BBE28BE655B00B1EA9C /* pdfkit-tutorial */,
+				FAA89BCF28BE655C00B1EA9C /* pdfkit-tutorialTests */,
+				FAA89BD928BE655C00B1EA9C /* pdfkit-tutorialUITests */,
+				FAA89BBD28BE655B00B1EA9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA89BBD28BE655B00B1EA9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA89BBC28BE655B00B1EA9C /* pdfkit-tutorial.app */,
+				FAA89BCC28BE655C00B1EA9C /* pdfkit-tutorialTests.xctest */,
+				FAA89BD628BE655C00B1EA9C /* pdfkit-tutorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA89BBE28BE655B00B1EA9C /* pdfkit-tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				FAA89BEB28BEC8AE00B1EA9C /* sat-practice-test-1.pdf */,
+				FAA89BBF28BE655B00B1EA9C /* pdfkit_tutorialApp.swift */,
+				FAA89BC128BE655B00B1EA9C /* ContentView.swift */,
+				FAA89BC328BE655C00B1EA9C /* Assets.xcassets */,
+				FAA89BC528BE655C00B1EA9C /* Preview Content */,
+			);
+			path = "pdfkit-tutorial";
+			sourceTree = "<group>";
+		};
+		FAA89BC528BE655C00B1EA9C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAA89BE928BEC8AC00B1EA9C /* sat-practice-test-1.pdf */,
+				FAA89BC628BE655C00B1EA9C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAA89BCF28BE655C00B1EA9C /* pdfkit-tutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA89BD028BE655C00B1EA9C /* pdfkit_tutorialTests.swift */,
+			);
+			path = "pdfkit-tutorialTests";
+			sourceTree = "<group>";
+		};
+		FAA89BD928BE655C00B1EA9C /* pdfkit-tutorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA89BDA28BE655C00B1EA9C /* pdfkit_tutorialUITests.swift */,
+				FAA89BDC28BE655C00B1EA9C /* pdfkit_tutorialUITestsLaunchTests.swift */,
+			);
+			path = "pdfkit-tutorialUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA89BBB28BE655B00B1EA9C /* pdfkit-tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA89BE028BE655C00B1EA9C /* Build configuration list for PBXNativeTarget "pdfkit-tutorial" */;
+			buildPhases = (
+				FAA89BB828BE655B00B1EA9C /* Sources */,
+				FAA89BB928BE655B00B1EA9C /* Frameworks */,
+				FAA89BBA28BE655B00B1EA9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pdfkit-tutorial";
+			productName = "pdfkit-tutorial";
+			productReference = FAA89BBC28BE655B00B1EA9C /* pdfkit-tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA89BCB28BE655C00B1EA9C /* pdfkit-tutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA89BE328BE655C00B1EA9C /* Build configuration list for PBXNativeTarget "pdfkit-tutorialTests" */;
+			buildPhases = (
+				FAA89BC828BE655C00B1EA9C /* Sources */,
+				FAA89BC928BE655C00B1EA9C /* Frameworks */,
+				FAA89BCA28BE655C00B1EA9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA89BCE28BE655C00B1EA9C /* PBXTargetDependency */,
+			);
+			name = "pdfkit-tutorialTests";
+			productName = "pdfkit-tutorialTests";
+			productReference = FAA89BCC28BE655C00B1EA9C /* pdfkit-tutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAA89BD528BE655C00B1EA9C /* pdfkit-tutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA89BE628BE655C00B1EA9C /* Build configuration list for PBXNativeTarget "pdfkit-tutorialUITests" */;
+			buildPhases = (
+				FAA89BD228BE655C00B1EA9C /* Sources */,
+				FAA89BD328BE655C00B1EA9C /* Frameworks */,
+				FAA89BD428BE655C00B1EA9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA89BD828BE655C00B1EA9C /* PBXTargetDependency */,
+			);
+			name = "pdfkit-tutorialUITests";
+			productName = "pdfkit-tutorialUITests";
+			productReference = FAA89BD628BE655C00B1EA9C /* pdfkit-tutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA89BB428BE655B00B1EA9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FAA89BBB28BE655B00B1EA9C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					FAA89BCB28BE655C00B1EA9C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FAA89BBB28BE655B00B1EA9C;
+					};
+					FAA89BD528BE655C00B1EA9C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FAA89BBB28BE655B00B1EA9C;
+					};
+				};
+			};
+			buildConfigurationList = FAA89BB728BE655B00B1EA9C /* Build configuration list for PBXProject "pdfkit-tutorial" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA89BB328BE655B00B1EA9C;
+			productRefGroup = FAA89BBD28BE655B00B1EA9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA89BBB28BE655B00B1EA9C /* pdfkit-tutorial */,
+				FAA89BCB28BE655C00B1EA9C /* pdfkit-tutorialTests */,
+				FAA89BD528BE655C00B1EA9C /* pdfkit-tutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA89BBA28BE655B00B1EA9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA89BEA28BEC8AC00B1EA9C /* sat-practice-test-1.pdf in Resources */,
+				FAA89BC728BE655C00B1EA9C /* Preview Assets.xcassets in Resources */,
+				FAA89BC428BE655C00B1EA9C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA89BCA28BE655C00B1EA9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA89BD428BE655C00B1EA9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA89BB828BE655B00B1EA9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA89BC228BE655B00B1EA9C /* ContentView.swift in Sources */,
+				FAA89BC028BE655B00B1EA9C /* pdfkit_tutorialApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA89BC828BE655C00B1EA9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA89BD128BE655C00B1EA9C /* pdfkit_tutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA89BD228BE655C00B1EA9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA89BDD28BE655C00B1EA9C /* pdfkit_tutorialUITestsLaunchTests.swift in Sources */,
+				FAA89BDB28BE655C00B1EA9C /* pdfkit_tutorialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA89BCE28BE655C00B1EA9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA89BBB28BE655B00B1EA9C /* pdfkit-tutorial */;
+			targetProxy = FAA89BCD28BE655C00B1EA9C /* PBXContainerItemProxy */;
+		};
+		FAA89BD828BE655C00B1EA9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA89BBB28BE655B00B1EA9C /* pdfkit-tutorial */;
+			targetProxy = FAA89BD728BE655C00B1EA9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAA89BDE28BE655C00B1EA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA89BDF28BE655C00B1EA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA89BE128BE655C00B1EA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pdfkit-tutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = 54WRV8QX2U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amodrono.pdfkit-tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA89BE228BE655C00B1EA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pdfkit-tutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = 54WRV8QX2U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amodrono.pdfkit-tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAA89BE428BE655C00B1EA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54WRV8QX2U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amodrono.pdfkit-tutorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pdfkit-tutorial.app/pdfkit-tutorial";
+			};
+			name = Debug;
+		};
+		FAA89BE528BE655C00B1EA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54WRV8QX2U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amodrono.pdfkit-tutorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pdfkit-tutorial.app/pdfkit-tutorial";
+			};
+			name = Release;
+		};
+		FAA89BE728BE655C00B1EA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54WRV8QX2U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amodrono.pdfkit-tutorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pdfkit-tutorial";
+			};
+			name = Debug;
+		};
+		FAA89BE828BE655C00B1EA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54WRV8QX2U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amodrono.pdfkit-tutorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pdfkit-tutorial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA89BB728BE655B00B1EA9C /* Build configuration list for PBXProject "pdfkit-tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA89BDE28BE655C00B1EA9C /* Debug */,
+				FAA89BDF28BE655C00B1EA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA89BE028BE655C00B1EA9C /* Build configuration list for PBXNativeTarget "pdfkit-tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA89BE128BE655C00B1EA9C /* Debug */,
+				FAA89BE228BE655C00B1EA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA89BE328BE655C00B1EA9C /* Build configuration list for PBXNativeTarget "pdfkit-tutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA89BE428BE655C00B1EA9C /* Debug */,
+				FAA89BE528BE655C00B1EA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA89BE628BE655C00B1EA9C /* Build configuration list for PBXNativeTarget "pdfkit-tutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA89BE728BE655C00B1EA9C /* Debug */,
+				FAA89BE828BE655C00B1EA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA89BB428BE655B00B1EA9C /* Project object */;
+}
