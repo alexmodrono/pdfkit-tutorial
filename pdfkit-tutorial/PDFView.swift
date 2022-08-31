@@ -65,7 +65,7 @@ extension PDFView {
         func load(url: URL?) {
             guard let url = url else {
                 return self.state = .failure(
-                    error: "The provided URL is not valid"
+                    error: "The provided URL is not valid."
                 )
             }
 
