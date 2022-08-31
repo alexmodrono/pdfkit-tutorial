@@ -15,6 +15,7 @@
 		FAA89BDB28BE655C00B1EA9C /* pdfkit_tutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA89BDA28BE655C00B1EA9C /* pdfkit_tutorialUITests.swift */; };
 		FAA89BDD28BE655C00B1EA9C /* pdfkit_tutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA89BDC28BE655C00B1EA9C /* pdfkit_tutorialUITestsLaunchTests.swift */; };
 		FAA89BEA28BEC8AC00B1EA9C /* sat-practice-test-1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FAA89BE928BEC8AC00B1EA9C /* sat-practice-test-1.pdf */; };
+		FACDAB8428BFA02F00942937 /* PDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDAB8328BFA02F00942937 /* PDFView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FAA89BDC28BE655C00B1EA9C /* pdfkit_tutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfkit_tutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FAA89BE928BEC8AC00B1EA9C /* sat-practice-test-1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "sat-practice-test-1.pdf"; path = "../../../../Downloads/sat-practice-test-1.pdf"; sourceTree = "<group>"; };
 		FAA89BEB28BEC8AE00B1EA9C /* sat-practice-test-1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "sat-practice-test-1.pdf"; sourceTree = "<group>"; };
+		FACDAB8328BFA02F00942937 /* PDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				FAA89BEB28BEC8AE00B1EA9C /* sat-practice-test-1.pdf */,
 				FAA89BBF28BE655B00B1EA9C /* pdfkit_tutorialApp.swift */,
+				FACDAB8328BFA02F00942937 /* PDFView.swift */,
 				FAA89BC128BE655B00B1EA9C /* ContentView.swift */,
 				FAA89BC328BE655C00B1EA9C /* Assets.xcassets */,
 				FAA89BC528BE655C00B1EA9C /* Preview Content */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FACDAB8428BFA02F00942937 /* PDFView.swift in Sources */,
 				FAA89BC228BE655B00B1EA9C /* ContentView.swift in Sources */,
 				FAA89BC028BE655B00B1EA9C /* pdfkit_tutorialApp.swift in Sources */,
 			);
@@ -420,10 +424,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"pdfkit-tutorial/Preview Content\"";
-				DEVELOPMENT_TEAM = 54WRV8QX2U;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -438,6 +442,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.amodrono.pdfkit-tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,10 +454,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"pdfkit-tutorial/Preview Content\"";
-				DEVELOPMENT_TEAM = 54WRV8QX2U;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -467,6 +472,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.amodrono.pdfkit-tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
